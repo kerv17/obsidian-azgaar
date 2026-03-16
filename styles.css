@@ -1,0 +1,39 @@
+.azgaar-loader-controls {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.azgaar-loader-controls button {
+  padding: 0.3rem 0.6rem;
+}
+
+.azgaar-loader-hint {
+  color: var(--text-muted);
+  font-size: var(--font-ui-small);
+}
+
+.azgaar-loader-inline {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem 0 0.75rem;
+}
+
+.azgaar-loader-inline button {
+  padding: 0.3rem 0.6rem;
+}
+
+.azgaar-loader-webview,
+.azgaar-loader-iframe {
+  width: 100%;
+  height: 78vh;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 8px;
+}
+
+.azgaar-loader-webview-inline,
+.azgaar-loader-iframe-inline {
+  height: 720px;
+}

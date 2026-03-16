@@ -1,0 +1,11 @@
+{
+  "id": "obsidian-azgaar-loader",
+  "name": "Azgaar Map Loader",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Open Azgaar's Fantasy Map Generator and load local .map files from your vault.",
+  "author": "kervinp",
+  "authorUrl": "",
+  "isDesktopOnly": true,
+  "main": "main.js"
+}
